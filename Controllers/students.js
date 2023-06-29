@@ -23,3 +23,4 @@ export function addstudents(data){
    .collection("students")
    .insertOne(data)
 }
+

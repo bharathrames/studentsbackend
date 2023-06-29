@@ -4,7 +4,7 @@ import { addstudents, getallstudents, getelementbyid } from "../Controllers/stud
 
 const router = express.Router()
 
-router.get("/all", async (req, res) => {
+router.get("/hello", async (req, res) => {
     try {
         const students = await getallstudents(req)
         if (students.length == 0){
